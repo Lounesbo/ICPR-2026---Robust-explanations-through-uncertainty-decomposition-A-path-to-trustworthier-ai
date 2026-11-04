@@ -1,10 +1,18 @@
 # Uncertainty vs. Robust Explanations (XAI-UQ)
 
-Source code for the study **"Robust Explanations Through Uncertainty Decomposition: A Path to Trustworthier AI"** (accepted at ICPR, see the [note](#️-note) below).
+Source code for the paper **"Robust Explanations Through Uncertainty Decomposition: A Path to Trustworthier AI"**, accepted and presented at the **28th International Conference on Pattern Recognition (ICPR 2026)**, Lyon, France.
+
+📄 Paper: [arXiv:2507.12913](https://arxiv.org/abs/2507.12913)
 
 The project studies how **prediction uncertainty** relates to the **robustness of explanations**, for both **SHAP** (feature importance) and **counterfactual** explanations.
 
-Maintained by **Louenas Bounia**.
+## 👥 Authors
+
+- **Chenrui Zhu**: Université de technologie de Compiègne, CNRS, Heudiasyc (UMR 7253)
+- **Vu-Linh Nguyen**: Université de technologie de Compiègne, CNRS, Heudiasyc (UMR 7253)
+- **Louenas Bounia**: Université Sorbonne Paris Nord, CNRS, LIPN (UMR 7030)
+- **Sébastien Destercke**: Université de technologie de Compiègne, CNRS, Heudiasyc (UMR 7253)
+- **Arthur Hoarau**: Université de technologie de Compiègne, CNRS, Heudiasyc (UMR 7253)
 
 ## 🧠 Introduction
 
@@ -112,6 +120,28 @@ Average correlation coefficient (LIVER_eknn): -0.8195
 - M. Pawelczyk, K. Broelemann, G. Kasneci, *Learning model-agnostic counterfactual explanations for tabular data*, WWW '20, pp. 3126–3132, ACM, 2020.
 - D. Dua, C. Graff, *UCI Machine Learning Repository*, 2017. [archive.ics.uci.edu](https://archive.ics.uci.edu/)
 
-## ⚠️ Note
+## 📝 Citation
 
-The paper associated with this code, **"Robust Explanations Through Uncertainty Decomposition: A Path to Trustworthier AI"**, has been accepted for the ICPR camera-ready stage but has **not yet been formally published**. If you use or reference this code, please make sure to **clearly indicate this status**.
+If you use this code, please cite:
+
+```bibtex
+@inproceedings{zhu2026robust,
+  title     = {Robust Explanations Through Uncertainty Decomposition: A Path to Trustworthier AI},
+  author    = {Zhu, Chenrui and Nguyen, Vu-Linh and Bounia, Louenas and Destercke, S{\'e}bastien and Hoarau, Arthur},
+  booktitle = {Proceedings of the 28th International Conference on Pattern Recognition (ICPR)},
+  year      = {2026},
+  note      = {arXiv:2507.12913}
+}
+```
+
+## 📬 Contact
+
+For questions about the paper or the code, please contact the authors:
+
+| Author | Email |
+|---|---|
+| Chenrui Zhu | chenrui.zhu@utc.fr |
+| Vu-Linh Nguyen | vu-linh.nguyen@utc.fr |
+| Louenas Bounia | bounia@lipn.univ-paris13.fr |
+| Sébastien Destercke | sebastien.destercke@utc.fr |
+| Arthur Hoarau | arthur.hoarau@utc.fr |
